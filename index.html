@@ -1144,6 +1144,9 @@ body.dark-mode .spinner-border {
       <a href="https://www.instagram.com/windev01_?igsh=MWY4NXptZWx0bzdjYQ==" target="_blank" title="Follow on Instagram" class="text-decoration-none gradient-ig social-hover">
         <i class="bi bi-instagram"></i> Instagram
       </a>
+      <a href="https://erwin-a11y.github.io/MyProfile/" target="_blank" title="Kunjungi Website" class="text-decoration-none gradient-web social-hover">
+  <i class="bi bi-globe"></i>
+      </a>
       <img 
   src="https://visitor-badge.laobi.icu/badge?page_id=erwin-a11y.twibonzque" 
   alt="visitor badge"
@@ -1165,7 +1168,9 @@ body.dark-mode footer {
 /* Default (mode siang) — teks putih polos */
 .gradient-wa,
 .gradient-fb,
-.gradient-ig {
+.gradient-ig,
+  .gradient-web
+  {
   font-weight: bold;
   font-size: 1rem;
   display: inline-block;
@@ -1176,7 +1181,9 @@ body.dark-mode footer {
 /* Dark mode — aktifkan efek gradient dan transparansi */
 body.dark-mode .gradient-wa,
 body.dark-mode .gradient-fb,
-body.dark-mode .gradient-ig {
+body.dark-mode .gradient-ig,
+  body.dark-mode .gradient-web
+  {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -1195,6 +1202,9 @@ body.dark-mode .gradient-fb {
 
 body.dark-mode .gradient-ig {
   background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+body.dark-mode .gradient-web {
+  background-image: radial-gradient(circle at 30% 107%, #6a11cb 0%, #2575fc 45%, #ff4b2b 60%, #ff416c 90%);
 }
 /* Hover efek dengan transisi halus di mode malam */
 body.dark-mode .social-hover {
@@ -1217,6 +1227,9 @@ body.dark-mode .social-hover:hover {
 .gradient-ig:hover {
   color: #E1306C;
 }
+  .gradient-web:hover {
+  color: #3498db;
+  }
 </style>
 
 <!-- Bootstrap Icons -->
